@@ -20,8 +20,8 @@ namespace lwxConsoleMp3Player
         {
             if (args.Length > 0)
             {
-                //Add all arguments to a single file, so the filename will be used regardsless if the user provides
-                //the link with quotes or not
+                //Add all arguments to a single string, so the filename will be used regardsless if the user provides
+                //the link with quotes or not (it doesn't work if the filename has two spaces together)
                 string filename = string.Join(" ", args);
 
                 //remove extra spaces

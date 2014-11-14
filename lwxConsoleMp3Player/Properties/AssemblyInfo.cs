@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("lwxConsoleMp3Player")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Mp3 player for the console")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("LunaWorX.net")]
 [assembly: AssemblyProduct("lwxConsoleMp3Player")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
