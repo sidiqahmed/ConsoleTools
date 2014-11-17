@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lwxConsoleTools", "lwxConsoleTools\lwxConsoleTools.csproj", "{B8A423D0-08A4-4D4B-8B23-F73566427720}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lwxConsoleMp3Player", "lwxConsoleMp3Player\lwxConsoleMp3Player.csproj", "{70C4EB83-D5CC-400B-BA72-2C1D67AAD408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lwxDownloadAndExecute", "lwxDownloadAndExecute\lwxDownloadAndExecute.csproj", "{06C6D919-687B-49D8-88FC-C437E3991583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lwxRegAllDLL", "lwxRegAllDLL\lwxRegAllDLL.csproj", "{21B5C3FF-C787-4D92-8B6B-77A9803D6E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{70C4EB83-D5CC-400B-BA72-2C1D67AAD408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70C4EB83-D5CC-400B-BA72-2C1D67AAD408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70C4EB83-D5CC-400B-BA72-2C1D67AAD408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C6D919-687B-49D8-88FC-C437E3991583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C6D919-687B-49D8-88FC-C437E3991583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C6D919-687B-49D8-88FC-C437E3991583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C6D919-687B-49D8-88FC-C437E3991583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B5C3FF-C787-4D92-8B6B-77A9803D6E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B5C3FF-C787-4D92-8B6B-77A9803D6E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B5C3FF-C787-4D92-8B6B-77A9803D6E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B5C3FF-C787-4D92-8B6B-77A9803D6E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

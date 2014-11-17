@@ -1,4 +1,22 @@
-﻿using System;
+﻿/*
+    This file is part of lwxConsoleMp3Player.
+
+    lwxConsoleMp3Player is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
+    For more information, contact marcus@lunaworx.net
+ */
+using System;
 using System.IO;
 using System.Threading;
 using WMPLib;
@@ -33,6 +51,7 @@ namespace lwxConsoleMp3Player
                     {
                         wplayer.PlayStateChange += wplayer_PlayStateChange;
                         wplayer.URL = filename;
+                        Console.WriteLine("LunaWorX mp3Player: "+filename);
 
                         //Wait for the file to stop playing
                         while (!isDone)
