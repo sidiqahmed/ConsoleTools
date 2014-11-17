@@ -1,4 +1,5 @@
-Purpose: Download a file and execute it
+<b>Purpose:</b><br>
+ Download a file and execute it
 
 The main idea is to be able to tell it what to download and install, when reinstalling a computer
 
